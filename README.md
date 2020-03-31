@@ -1,7 +1,6 @@
 # Collection of plots showing the trend of COVID-19 (2019-nCoV) pandemic
 
-Data is taken from the [2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE](ht\
-tps://github.com/CSSEGISandData/COVID-19)
+Data is taken from the [2019 Novel Coronavirus COVID-19 Data Repository by Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
 
 ### Cases
 
