@@ -10,6 +10,6 @@ from plots.death_rate import plot_normalized_death_rate
 
 plot_normalized_cumulative_data("Confirmed Cases per day", "figures/cases.png", 0.15, ("DE", data.csse.get_cases("Germany")), ("IT", data.csse.get_cases("Italy")), ("US", data.csse.get_cases("US")), ("ES", data.csse.get_cases("Spain")))
 
-plot_normalized_cumulative_data("Deaths per day", "figures/deaths.png", 0.25, ("DE", data.csse.get_deaths("Germany")), ("IT", data.csse.get_deaths("Italy")), ("US", data.csse.get_deaths("US")), ("ES", data.csse.get_deaths("Spain")))
+plot_normalized_cumulative_data("Deaths per day", "figures/deaths.png", 0.15, ("DE", data.csse.get_deaths("Germany")), ("IT", data.csse.get_deaths("Italy")), ("US", data.csse.get_deaths("US")), ("ES", data.csse.get_deaths("Spain")))
 
 #plot_normalized_death_rate("death_rate", "us", 7, data.csse.get_cases("US"), data.csse.get_deaths("US"))
