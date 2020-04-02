@@ -1,3 +1,4 @@
+import datetime
 import inspect, os
 
 # from https://stackoverflow.com/questions/247770/how-to-retrieve-a-modules-path
@@ -70,7 +71,7 @@ def get_days():
     global _days
     if not _days:
         _parse_cases()
-    return _days
+    return [datetime.datetime.strptime(day, "%m/%d/%y").date() for day in _days]
 
 
 def get_cases(country):
