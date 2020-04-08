@@ -6,8 +6,18 @@ Data is taken from the [2019 Novel Coronavirus COVID-19 Data Repository by Johns
 
 ### Cases
 
-![Cases by day](https://github.com/vscharf/COVID-19/raw/master/figures/cases.png)
+![Cumulative](https://github.com/vscharf/COVID-19/raw/master/figures/cases.png)
+
+![Daily Cases](https://github.com/vscharf/COVID-19/raw/master/figures/daily_cases.png)
+
+![Averaged daily Cases](https://github.com/vscharf/COVID-19/raw/master/figures/daily_cases_historic_average.png)
+
 
 ### Deaths
 
-![Deaths by day](https://github.com/vscharf/COVID-19/raw/master/figures/deaths.png)
+![Cumulative deaths](https://github.com/vscharf/COVID-19/raw/master/figures/deaths.png)
+
+
+![Daily Death](https://github.com/vscharf/COVID-19/raw/master/figures/daily_deaths.png)
+
+![Averaged daily deaths](https://github.com/vscharf/COVID-19/raw/master/figures/daily_death_historic_average.png)
