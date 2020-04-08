@@ -2,6 +2,11 @@ import matplotlib
 matplotlib.use('MacOSX')
 import matplotlib.pyplot as plt
 
+
+def differences(data):
+    return [j - i for i, j in zip(data[:-1], data[1:])]
+
+
 class Plot(object):
     def __init__(self, title = None, xlabel = None):
         # create canvas
