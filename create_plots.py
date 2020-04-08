@@ -20,12 +20,14 @@ update_date_in_readme()
 case_data = [("DE", data.csse.get_cases("Germany")),
              ("IT", data.csse.get_cases("Italy")),
              ("US", data.csse.get_cases("US")),
-             ("ES", data.csse.get_cases("Spain"))]
+             ("ES", data.csse.get_cases("Spain")),
+             ("UK", data.csse.get_cases("United Kingdom"))]
 
 death_data = [("DE", data.csse.get_deaths("Germany")),
               ("IT", data.csse.get_deaths("Italy")),
               ("US", data.csse.get_deaths("US")),
-              ("ES", data.csse.get_deaths("Spain"))]
+              ("ES", data.csse.get_deaths("Spain")),
+              ("UK", data.csse.get_deaths("United Kingdom"))]
 
 
 plot_normalized_cumulative_data("Confirmed Cases", "figures/cases.png",
