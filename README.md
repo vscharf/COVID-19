@@ -2,7 +2,7 @@
 
 Data is taken from the [2019 Novel Coronavirus COVID-19 Data Repository by Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
 
-### Last update: 12.04.2020
+### Last update: 13.04.2020
 
 ### Cases
 
